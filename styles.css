@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 15%;
+    background-color: rgb(109, 109, 233);
+}
+
+.container1{
+    height: 55%;
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container2{
+    height: 100%;
+    width: 60%;
+}
+
+.hero{
+    height: 30%;
+    width: 40%;
+    background-color: brown;
+}
+
+.sidebar{
+    height: 70%;
+    width: 40%;
+    background-color: blueviolet;
+}
+
+.main{
+    height: 70%;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+.extra{
+    height: 30%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.container3{
+    height: 30%;
+    width: 100%;
+}
+
+.container4{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.image{
+    height: 100%;
+    width: 60%;
+    background-color: greenyellow;
+    
+}
+
+.related{
+    height: 100%;
+    width: 40%;
+    background-color:bisque;
+}
+
+.footer{
+    height: 100%;
+    background-color: burlywood;
+}
